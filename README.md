@@ -7,9 +7,8 @@ Ce dépôt contient uniquement les ressources nécessaires aux trois TP :
 
 - Node.js 22 ou plus récent ;
 - un compte MongoDB Atlas par binôme ;
-- Git et un navigateur récent.
-- Un IDE de qualité
-- Recommandé : un abonnement à un 
+- Git et un navigateur récent ;
+- un IDE de qualité.
 
 Consulter [ATLAS_SETUP.md](ATLAS_SETUP.md) pour créer la base de données.
 
@@ -20,8 +19,7 @@ cd backend
 cp .env.example .env
 ```
 
-Renseigner dans `.env` l’URI MongoDB Atlas et le secret JWT. Ne jamais publier
-ce fichier ni copier un secret dans le code Angular.
+Renseigner dans `.env` l’URI MongoDB Atlas et le secret JWT. Ne jamais publier ce fichier ni copier un secret dans le code Angular.
 
 ```bash
 npm install
@@ -47,7 +45,7 @@ Ouvrir `http://localhost:4200`. Le compte de démonstration est
 
 - [SUJET_ETUDIANT_TP1.md](SUJET_ETUDIANT_TP1.md), [SUJET_ETUDIANT_TP2.md](SUJET_ETUDIANT_TP2.md) et [SUJET_ETUDIANT_TP3.md](SUJET_ETUDIANT_TP3.md) : missions des trois séances ;
 - [API_CONTRACT.md](API_CONTRACT.md) : endpoints, authentification et formats échangés ;
-- [RAPPORT_IA_MODELE.md](RAPPORT_IA_MODELE.md) : modèle de compte rendu.
+- [RAPPORT_IA_MODELE.md](RAPPORT_IA_MODELE.md) : modèle de compte rendu ;
 - [CONSEILS_POUR_UTIISER_ASSISTANT_AI.md](CONSEILS_POUR_UTIISER_ASSISTANT_AI.md) : utiliser correctement un assistant IA, quel que soit l’outil choisi.
 
 Le backend contient également ses propres consignes pour les assistants :
@@ -60,3 +58,11 @@ les logs et les tests.
 Les fichiers audio présents dans `frontend-starter/fichiers-audio-de-test/` sont
 des fixtures fournies pour les essais. Aucun fichier uploadé, dossier de
 dépendances (`node_modules`), fichier `.env` ou identifiant local n’est inclus.
+
+## Informations sur le rendu
+
+- **Étudiante :** Syrine Ben Maad
+- **Formation :** M1 MIAGE
+- **Type de travail :** Travail individuel
+- **Travail concerné :** TP Angular 1, TP Angular 2 et TP Angular 3
+- **Dépôt GitHub :** [AngularM1_Miage_2026_2027_TP123](https://github.com/sybenmaad/AngularM1_Miage_2026_2027_TP123)
